@@ -1,0 +1,25 @@
+.task{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+    position:relative;
+    height: 45px;    
+}
+
+.task button{
+    margin: 1px 10px 1px, 1px;
+    display:inline-block;
+    position: absolute; 
+    right: 0;
+}
+
+.task span{
+    padding: 10px 10px 10px 10px;
+    vertical-align: middle;
+}
+
+.task.done span{
+    text-decoration: line-through;
+    opacity: .6;
+}

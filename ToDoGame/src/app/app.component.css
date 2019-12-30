@@ -7,7 +7,7 @@
     padding: 10px 10px 10px 10px;
 
     width: 500px;
-    height: 100px;
+    height: 200px;
     border: darkcyan 1px solid;
     align-self: center;
     margin: auto;
@@ -18,8 +18,8 @@
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
     border: darkcyan 1px solid;
-    width: 47%;
-    height: 500px;  
+    width: 27%;
+    height: 750px;  
 }
 
 .achievements{
@@ -27,6 +27,14 @@
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
     border: darkcyan 1px solid;
-    width: 47%; 
-    height: 500px;   
+    width: 70%; 
+    height: 750px;   
+}
+
+h4{
+    color: cadetblue;
+}
+
+h4 span{
+    padding: 10px;
 }

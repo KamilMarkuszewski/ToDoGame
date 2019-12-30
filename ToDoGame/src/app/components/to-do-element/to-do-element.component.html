@@ -1,0 +1,5 @@
+<div  title="{{ task.description }}" class="task btn btn-light" [ngClass]="{'done': task.done==1}" (click)="toggleTaskStatus()">
+  <span>{{ task.name }} <span class="badge badge-info badge-pill">{{task.experience}}</span></span>
+
+  <button type="button" (click)="deleteTaskRow()" class="btn btn-danger btn-sm"><fa name="trash"></fa></button>
+</div>

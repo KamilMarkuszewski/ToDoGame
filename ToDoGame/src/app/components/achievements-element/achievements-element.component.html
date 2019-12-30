@@ -1,0 +1,5 @@
+<div title="{{ goal.description }}" class="goal btn btn-light" [ngClass]="{'done': goal.done==1}" (click)="toggleGoalStatus()">
+  <span>{{ goal.name }} <span class="badge badge-info badge-pill">{{goal.experience}}</span></span>
+
+  <button type="button" (click)="deleteGoalRow()" class="btn btn-danger btn-sm"><fa name="trash"></fa></button>
+</div>

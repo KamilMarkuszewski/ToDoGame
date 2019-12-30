@@ -1,3 +1,34 @@
-<p>
-  hero works!
-</p>
+
+
+
+<div class="heroDetails">
+  <div class="infoLeft">
+    <h4><fa name="user-circle" size="2x"></fa> <span>Hero</span></h4>    
+  </div>
+  <div class="infoRight">
+    <div  class="heroLevelInfo">
+      <div class="progress">
+        <div class="progress-bar progress-bar-animated progress-bar-striped" 
+          role="progressbar" 
+          attr.aria-valuenow="{{hero.experience}}" 
+          [style.width.%]="hero.experience"
+          aria-valuemin="0" 
+          attr.aria-valuemax="{{hero.nextLevelExperience}}"
+          >{{hero.experience}} / {{hero.nextLevelExperience}}</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="heroInfo">
+    <div class="row"><span class="col-sm-4">Name</span><span class="col-sm-4">{{hero.name}}</span></div>
+    <div class="row"><span class="col-sm-4">Email</span><span class="col-sm-4">{{hero.email}}</span></div>
+    <div class="row"><span class="col-sm-4">Level</span><span class="col-sm-4">{{hero.level}}</span></div>
+  </div>
+
+  <div class="heroStats">
+    <div class="row"><span class="col-sm-8">Strength</span><span class="col-sm-4">{{hero.strength}}</span></div>
+    <div class="row"><span class="col-sm-8">Intelligence</span><span class="col-sm-4">{{hero.intelligence}}</span></div>
+    <div class="row"><span class="col-sm-8">Charisma</span><span class="col-sm-4">{{hero.charisma}}</span></div>
+  </div>
+
+</div>

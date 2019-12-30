@@ -1,0 +1,30 @@
+h4{
+    color: cadetblue;
+}
+
+h4 span{
+    padding: 10px;
+}
+
+.addTask{
+    position:relative;
+    height: 190px;
+
+}
+
+form.addTask button{
+    display:inline-block;
+    position: absolute; 
+    right: 0;
+    margin: 10px;
+}
+
+.categoryButtons{
+    align-content: center;
+    vertical-align: middle;
+}
+
+.categoryButtons button{
+    margin: 5px;
+    align-self: center;
+}
