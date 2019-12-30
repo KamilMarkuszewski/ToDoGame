@@ -1,0 +1,32 @@
+
+.main{
+    height: 90%;
+}
+
+.hero{
+    padding: 10px 10px 10px 10px;
+
+    width: 500px;
+    height: 100px;
+    border: darkcyan 1px solid;
+    align-self: center;
+    margin: auto;
+}
+
+.toDoList{
+    float: left;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border: darkcyan 1px solid;
+    width: 47%;
+    height: 500px;  
+}
+
+.achievements{
+    float: left;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border: darkcyan 1px solid;
+    width: 47%; 
+    height: 500px;   
+}
