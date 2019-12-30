@@ -41,6 +41,7 @@ export class ToDoListComponent implements OnInit {
   }
 
   setTaskStatus(index, status) {
+    console.log("setTaskStatus");
     this.tasks[index].done = status;
   }
 

@@ -43,11 +43,11 @@ export class AchievementsComponent implements OnInit {
     this.descriptionInput.nativeElement.value = '';
   }
 
-  deleteTaskFromArray(index) {
+  deleteGoalFromArray(index) {
     this.goals.splice(index, 1);
   }
 
-  setTaskStatus(index, status) {
+  setGoalStatus(index, status) {
     this.goals[index].done = status;
   }
 

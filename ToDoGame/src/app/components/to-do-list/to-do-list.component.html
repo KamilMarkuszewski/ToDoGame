@@ -29,6 +29,6 @@
   <app-to-do-element
   *ngFor="let task of tasks, let i = index"
   [task]="task"
-  (deleteTask)="deleteTaskFromArray(i)"></app-to-do-element>
+  (deleteTask)="deleteTaskFromArray(i)" (toggleStatus)="setTaskStatus(i, $event)"></app-to-do-element>
 
 <router-outlet></router-outlet>
